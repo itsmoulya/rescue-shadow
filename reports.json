@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "identifier": "priya",
+        "location": "mountains",
+        "details": "banglore",
+        "priority": "Needs assessment",
+        "status": "Reported",
+        "verified": false
+    }
+]
