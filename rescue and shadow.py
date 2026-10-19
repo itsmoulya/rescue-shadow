@@ -1,6 +1,5 @@
-# ==========================================
-# RESCUE-SHADOW MANAGEMENT SYSTEM
-# ==========================================
+import json
+import os
 
 reports = []
 search_history = []
@@ -25,7 +24,12 @@ def add_report(reports):
 
     reports.append(report)
 
-    print("\nReport added successfully!")
+    reports.append(report)
+
+with open("reports.json", "w") as file:
+    json.dump(reports, file, indent=4)
+
+print("\nReport added successfully!")
 
 
 # Function 2: View all rescue reports
